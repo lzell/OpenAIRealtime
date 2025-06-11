@@ -7,4 +7,4 @@ This project demonstrates AIProxy's OpenAI Realtime SDK. There are three targets
 
 To build and run for any target, you must first set your key [here](https://github.com/lzell/OpenAIRealtime/blob/main/AIProxyIntegration.swift)
 
-A recording of this demo is available [here](example.org).
+A recording of this demo is available [here](https://x.com/louzell_/status/1932863836413149422).
