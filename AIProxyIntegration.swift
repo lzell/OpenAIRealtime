@@ -8,7 +8,7 @@ import AIProxy
 
 enum AIProxyIntegration {
 
-    // #error("You must fill in details using one of the approaches below. Then delete this line.")
+    #error("You must fill in details using one of the approaches below. Then delete this line.")
 
     // Use this service for prototyping only.
     // You must not distribute your app with this approach.
