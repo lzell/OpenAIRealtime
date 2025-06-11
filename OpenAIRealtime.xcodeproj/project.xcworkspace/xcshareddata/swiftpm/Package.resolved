@@ -1,0 +1,24 @@
+{
+  "originHash" : "5a345dbeea6e4b2f221c4907510e4c94cbf1d9d737170c0f1e77be04646f78a9",
+  "pins" : [
+    {
+      "identity" : "aiproxyswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lzell/AIProxySwift",
+      "state" : {
+        "revision" : "8a47162dd7f6f6e815459de36cc1bfd70151097c",
+        "version" : "0.109.0"
+      }
+    },
+    {
+      "identity" : "orb",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lzell/Orb",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5ef28307bc2a97517409bf311ba9a4a642be48da"
+      }
+    }
+  ],
+  "version" : 3
+}

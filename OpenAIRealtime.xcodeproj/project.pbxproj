@@ -1,0 +1,1144 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D319CB72DF9F599000F4407 /* Orb in Frameworks */ = {isa = PBXBuildFile; productRef = 0D319CB62DF9F599000F4407 /* Orb */; };
+		0D319CB92DF9F59F000F4407 /* Orb in Frameworks */ = {isa = PBXBuildFile; productRef = 0D319CB82DF9F59F000F4407 /* Orb */; };
+		0D319CBB2DF9F5A7000F4407 /* Orb in Frameworks */ = {isa = PBXBuildFile; productRef = 0D319CBA2DF9F5A7000F4407 /* Orb */; };
+		0D7449B42DF905E100DB5308 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449B02DF905E100DB5308 /* ContentView.swift */; };
+		0D7449D42DF906BF00DB5308 /* AIProxyIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449D32DF906BF00DB5308 /* AIProxyIntegration.swift */; };
+		0D7449D62DF906D900DB5308 /* MeshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449D52DF906D900DB5308 /* MeshView.swift */; };
+		0D7449D92DF906E100DB5308 /* RealtimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449D72DF906E100DB5308 /* RealtimeManager.swift */; };
+		0D7449DA2DF906E100DB5308 /* RealtimeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449D82DF906E100DB5308 /* RealtimeState.swift */; };
+		0D7449DC2DF9071700DB5308 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449DB2DF9071700DB5308 /* SpinnerView.swift */; };
+		0D7449DD2DF9073500DB5308 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449DB2DF9071700DB5308 /* SpinnerView.swift */; };
+		0D7449DE2DF9073500DB5308 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449DB2DF9071700DB5308 /* SpinnerView.swift */; };
+		0D7449DF2DF9073B00DB5308 /* AIProxyIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449D32DF906BF00DB5308 /* AIProxyIntegration.swift */; };
+		0D7449E02DF9073B00DB5308 /* AIProxyIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449D32DF906BF00DB5308 /* AIProxyIntegration.swift */; };
+		0D7449E12DF9074100DB5308 /* RealtimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449D72DF906E100DB5308 /* RealtimeManager.swift */; };
+		0D7449E22DF9074100DB5308 /* RealtimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449D72DF906E100DB5308 /* RealtimeManager.swift */; };
+		0D7449E32DF9074700DB5308 /* RealtimeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449D82DF906E100DB5308 /* RealtimeState.swift */; };
+		0D7449E42DF9074700DB5308 /* RealtimeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449D82DF906E100DB5308 /* RealtimeState.swift */; };
+		0D7449E52DF9074F00DB5308 /* MeshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449D52DF906D900DB5308 /* MeshView.swift */; };
+		0D7449E62DF9074F00DB5308 /* MeshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449D52DF906D900DB5308 /* MeshView.swift */; };
+		0D7449F02DF90B8800DB5308 /* AIProxy in Frameworks */ = {isa = PBXBuildFile; productRef = 0D7449EF2DF90B8800DB5308 /* AIProxy */; };
+		0D744A082DF90D7E00DB5308 /* AIProxy in Frameworks */ = {isa = PBXBuildFile; productRef = 0D744A072DF90D7E00DB5308 /* AIProxy */; };
+		0D744A092DF90ED300DB5308 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449B02DF905E100DB5308 /* ContentView.swift */; };
+		0D744A0A2DF90ED300DB5308 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7449B02DF905E100DB5308 /* ContentView.swift */; };
+		0D744A0F2DF92C8700DB5308 /* AIProxy in Frameworks */ = {isa = PBXBuildFile; productRef = 0D744A0E2DF92C8700DB5308 /* AIProxy */; };
+		0D744A112DF92F0600DB5308 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D744A102DF92F0400DB5308 /* ContentViewModel.swift */; };
+		0D744A122DF92F0600DB5308 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D744A102DF92F0400DB5308 /* ContentViewModel.swift */; };
+		0D744A132DF92F0600DB5308 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D744A102DF92F0400DB5308 /* ContentViewModel.swift */; };
+		0DD1CC452DF8F35000F7B0E1 /* watchOSRealtime App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0DD1CC442DF8F35000F7B0E1 /* watchOSRealtime App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DD1CC462DF8F35000F7B0E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DD1CC172DF8F2C400F7B0E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DD1CC432DF8F35000F7B0E1;
+			remoteInfo = "watchOSRealtime Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0DD1CC522DF8F35100F7B0E1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0DD1CC452DF8F35000F7B0E1 /* watchOSRealtime App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D7449B02DF905E100DB5308 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D7449D32DF906BF00DB5308 /* AIProxyIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIProxyIntegration.swift; sourceTree = "<group>"; };
+		0D7449D52DF906D900DB5308 /* MeshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshView.swift; sourceTree = "<group>"; };
+		0D7449D72DF906E100DB5308 /* RealtimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeManager.swift; sourceTree = "<group>"; };
+		0D7449D82DF906E100DB5308 /* RealtimeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeState.swift; sourceTree = "<group>"; };
+		0D7449DB2DF9071700DB5308 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		0D744A0B2DF90EF200DB5308 /* watchOSRealtime-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "watchOSRealtime-App-Info.plist"; sourceTree = "<group>"; };
+		0D744A102DF92F0400DB5308 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		0DD1CC212DF8F30600F7B0E1 /* macOSRealtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOSRealtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD1CC322DF8F32600F7B0E1 /* iOSRealtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSRealtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD1CC3F2DF8F35000F7B0E1 /* watchOSRealtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchOSRealtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD1CC442DF8F35000F7B0E1 /* watchOSRealtime App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOSRealtime App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0DD1CC232DF8F30600F7B0E1 /* macOSRealtime */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = macOSRealtime;
+			sourceTree = "<group>";
+		};
+		0DD1CC332DF8F32600F7B0E1 /* iOSRealtime */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iOSRealtime;
+			sourceTree = "<group>";
+		};
+		0DD1CC482DF8F35000F7B0E1 /* watchOSRealtime Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "watchOSRealtime Watch App";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DD1CC1E2DF8F30600F7B0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D319CB72DF9F599000F4407 /* Orb in Frameworks */,
+				0D7449F02DF90B8800DB5308 /* AIProxy in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD1CC2F2DF8F32600F7B0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D319CB92DF9F59F000F4407 /* Orb in Frameworks */,
+				0D744A0F2DF92C8700DB5308 /* AIProxy in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD1CC412DF8F35000F7B0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D319CBB2DF9F5A7000F4407 /* Orb in Frameworks */,
+				0D744A082DF90D7E00DB5308 /* AIProxy in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D7449E82DF90AE700DB5308 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DD1CC162DF8F2C400F7B0E1 = {
+			isa = PBXGroup;
+			children = (
+				0D7449D32DF906BF00DB5308 /* AIProxyIntegration.swift */,
+				0D7449B02DF905E100DB5308 /* ContentView.swift */,
+				0D744A102DF92F0400DB5308 /* ContentViewModel.swift */,
+				0D7449D52DF906D900DB5308 /* MeshView.swift */,
+				0D7449D72DF906E100DB5308 /* RealtimeManager.swift */,
+				0D7449D82DF906E100DB5308 /* RealtimeState.swift */,
+				0D7449DB2DF9071700DB5308 /* SpinnerView.swift */,
+				0DD1CC332DF8F32600F7B0E1 /* iOSRealtime */,
+				0DD1CC232DF8F30600F7B0E1 /* macOSRealtime */,
+				0DD1CC482DF8F35000F7B0E1 /* watchOSRealtime Watch App */,
+				0D7449E82DF90AE700DB5308 /* Frameworks */,
+				0DD1CC222DF8F30600F7B0E1 /* Products */,
+				0D744A0B2DF90EF200DB5308 /* watchOSRealtime-App-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		0DD1CC222DF8F30600F7B0E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DD1CC212DF8F30600F7B0E1 /* macOSRealtime.app */,
+				0DD1CC322DF8F32600F7B0E1 /* iOSRealtime.app */,
+				0DD1CC3F2DF8F35000F7B0E1 /* watchOSRealtime.app */,
+				0DD1CC442DF8F35000F7B0E1 /* watchOSRealtime App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DD1CC202DF8F30600F7B0E1 /* macOSRealtime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD1CC2B2DF8F30700F7B0E1 /* Build configuration list for PBXNativeTarget "macOSRealtime" */;
+			buildPhases = (
+				0DD1CC1D2DF8F30600F7B0E1 /* Sources */,
+				0DD1CC1E2DF8F30600F7B0E1 /* Frameworks */,
+				0DD1CC1F2DF8F30600F7B0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0DD1CC232DF8F30600F7B0E1 /* macOSRealtime */,
+			);
+			name = macOSRealtime;
+			packageProductDependencies = (
+				0D7449EF2DF90B8800DB5308 /* AIProxy */,
+				0D319CB62DF9F599000F4407 /* Orb */,
+			);
+			productName = macOSRealtime;
+			productReference = 0DD1CC212DF8F30600F7B0E1 /* macOSRealtime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DD1CC312DF8F32600F7B0E1 /* iOSRealtime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD1CC3A2DF8F32700F7B0E1 /* Build configuration list for PBXNativeTarget "iOSRealtime" */;
+			buildPhases = (
+				0DD1CC2E2DF8F32600F7B0E1 /* Sources */,
+				0DD1CC2F2DF8F32600F7B0E1 /* Frameworks */,
+				0DD1CC302DF8F32600F7B0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0DD1CC332DF8F32600F7B0E1 /* iOSRealtime */,
+			);
+			name = iOSRealtime;
+			packageProductDependencies = (
+				0D744A0E2DF92C8700DB5308 /* AIProxy */,
+				0D319CB82DF9F59F000F4407 /* Orb */,
+			);
+			productName = iOSRealtime;
+			productReference = 0DD1CC322DF8F32600F7B0E1 /* iOSRealtime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DD1CC3E2DF8F35000F7B0E1 /* watchOSRealtime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD1CC532DF8F35100F7B0E1 /* Build configuration list for PBXNativeTarget "watchOSRealtime" */;
+			buildPhases = (
+				0DD1CC3D2DF8F35000F7B0E1 /* Resources */,
+				0DD1CC522DF8F35100F7B0E1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DD1CC472DF8F35000F7B0E1 /* PBXTargetDependency */,
+			);
+			name = watchOSRealtime;
+			packageProductDependencies = (
+			);
+			productName = watchOSRealtime;
+			productReference = 0DD1CC3F2DF8F35000F7B0E1 /* watchOSRealtime.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		0DD1CC432DF8F35000F7B0E1 /* watchOSRealtime App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD1CC4F2DF8F35100F7B0E1 /* Build configuration list for PBXNativeTarget "watchOSRealtime App" */;
+			buildPhases = (
+				0DD1CC402DF8F35000F7B0E1 /* Sources */,
+				0DD1CC412DF8F35000F7B0E1 /* Frameworks */,
+				0DD1CC422DF8F35000F7B0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0DD1CC482DF8F35000F7B0E1 /* watchOSRealtime Watch App */,
+			);
+			name = "watchOSRealtime App";
+			packageProductDependencies = (
+				0D744A072DF90D7E00DB5308 /* AIProxy */,
+				0D319CBA2DF9F5A7000F4407 /* Orb */,
+			);
+			productName = "watchOSRealtime Watch App";
+			productReference = 0DD1CC442DF8F35000F7B0E1 /* watchOSRealtime App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DD1CC172DF8F2C400F7B0E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					0DD1CC202DF8F30600F7B0E1 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					0DD1CC312DF8F32600F7B0E1 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					0DD1CC3E2DF8F35000F7B0E1 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					0DD1CC432DF8F35000F7B0E1 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 0DD1CC1A2DF8F2C400F7B0E1 /* Build configuration list for PBXProject "OpenAIRealtime" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DD1CC162DF8F2C400F7B0E1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0D7449EC2DF90B6500DB5308 /* XCRemoteSwiftPackageReference "AIProxySwift" */,
+				0D319CB52DF9F592000F4407 /* XCRemoteSwiftPackageReference "Orb" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0DD1CC222DF8F30600F7B0E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DD1CC202DF8F30600F7B0E1 /* macOSRealtime */,
+				0DD1CC312DF8F32600F7B0E1 /* iOSRealtime */,
+				0DD1CC3E2DF8F35000F7B0E1 /* watchOSRealtime */,
+				0DD1CC432DF8F35000F7B0E1 /* watchOSRealtime App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DD1CC1F2DF8F30600F7B0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD1CC302DF8F32600F7B0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD1CC3D2DF8F35000F7B0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD1CC422DF8F35000F7B0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DD1CC1D2DF8F30600F7B0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D744A112DF92F0600DB5308 /* ContentViewModel.swift in Sources */,
+				0D7449B42DF905E100DB5308 /* ContentView.swift in Sources */,
+				0D7449E32DF9074700DB5308 /* RealtimeState.swift in Sources */,
+				0D7449DD2DF9073500DB5308 /* SpinnerView.swift in Sources */,
+				0D7449E12DF9074100DB5308 /* RealtimeManager.swift in Sources */,
+				0D7449DF2DF9073B00DB5308 /* AIProxyIntegration.swift in Sources */,
+				0D7449E52DF9074F00DB5308 /* MeshView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD1CC2E2DF8F32600F7B0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D744A122DF92F0600DB5308 /* ContentViewModel.swift in Sources */,
+				0D7449D42DF906BF00DB5308 /* AIProxyIntegration.swift in Sources */,
+				0D7449D92DF906E100DB5308 /* RealtimeManager.swift in Sources */,
+				0D744A092DF90ED300DB5308 /* ContentView.swift in Sources */,
+				0D7449DA2DF906E100DB5308 /* RealtimeState.swift in Sources */,
+				0D7449DC2DF9071700DB5308 /* SpinnerView.swift in Sources */,
+				0D7449D62DF906D900DB5308 /* MeshView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD1CC402DF8F35000F7B0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D744A132DF92F0600DB5308 /* ContentViewModel.swift in Sources */,
+				0D7449E42DF9074700DB5308 /* RealtimeState.swift in Sources */,
+				0D7449DE2DF9073500DB5308 /* SpinnerView.swift in Sources */,
+				0D744A0A2DF90ED300DB5308 /* ContentView.swift in Sources */,
+				0D7449E22DF9074100DB5308 /* RealtimeManager.swift in Sources */,
+				0D7449E02DF9073B00DB5308 /* AIProxyIntegration.swift in Sources */,
+				0D7449E62DF9074F00DB5308 /* MeshView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DD1CC472DF8F35000F7B0E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DD1CC432DF8F35000F7B0E1 /* watchOSRealtime App */;
+			targetProxy = 0DD1CC462DF8F35000F7B0E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DD1CC1B2DF8F2C400F7B0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9557YJ9D37;
+			};
+			name = Debug;
+		};
+		0DD1CC1C2DF8F2C400F7B0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9557YJ9D37;
+			};
+			name = Release;
+		};
+		0DD1CC2C2DF8F30700F7B0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = macOSRealtime/macOSRealtime.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9557YJ9D37;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone is required to chat with the AI model";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiproxy.macOSRealtime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0DD1CC2D2DF8F30700F7B0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = macOSRealtime/macOSRealtime.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9557YJ9D37;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone is required to chat with the AI model";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiproxy.macOSRealtime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0DD1CC3B2DF8F32700F7B0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9557YJ9D37;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone is required to chat with the AI model";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiproxy.iOSRealtime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DD1CC3C2DF8F32700F7B0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9557YJ9D37;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone is required to chat with the AI model";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiproxy.iOSRealtime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DD1CC502DF8F35100F7B0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9557YJ9D37;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "watchOSRealtime-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = watchOSRealtime;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone is required to chat with the AI model";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiproxy.watchOSRealtime.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		0DD1CC512DF8F35100F7B0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9557YJ9D37;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "watchOSRealtime-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = watchOSRealtime;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone is required to chat with the AI model";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiproxy.watchOSRealtime.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		0DD1CC542DF8F35100F7B0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9557YJ9D37;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watchOSRealtime;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiproxy.watchOSRealtime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0DD1CC552DF8F35100F7B0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9557YJ9D37;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watchOSRealtime;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiproxy.watchOSRealtime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DD1CC1A2DF8F2C400F7B0E1 /* Build configuration list for PBXProject "OpenAIRealtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD1CC1B2DF8F2C400F7B0E1 /* Debug */,
+				0DD1CC1C2DF8F2C400F7B0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD1CC2B2DF8F30700F7B0E1 /* Build configuration list for PBXNativeTarget "macOSRealtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD1CC2C2DF8F30700F7B0E1 /* Debug */,
+				0DD1CC2D2DF8F30700F7B0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD1CC3A2DF8F32700F7B0E1 /* Build configuration list for PBXNativeTarget "iOSRealtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD1CC3B2DF8F32700F7B0E1 /* Debug */,
+				0DD1CC3C2DF8F32700F7B0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD1CC4F2DF8F35100F7B0E1 /* Build configuration list for PBXNativeTarget "watchOSRealtime App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD1CC502DF8F35100F7B0E1 /* Debug */,
+				0DD1CC512DF8F35100F7B0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD1CC532DF8F35100F7B0E1 /* Build configuration list for PBXNativeTarget "watchOSRealtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD1CC542DF8F35100F7B0E1 /* Debug */,
+				0DD1CC552DF8F35100F7B0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0D319CB52DF9F592000F4407 /* XCRemoteSwiftPackageReference "Orb" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lzell/Orb";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		0D7449EC2DF90B6500DB5308 /* XCRemoteSwiftPackageReference "AIProxySwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lzell/AIProxySwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.108.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0D319CB62DF9F599000F4407 /* Orb */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D319CB52DF9F592000F4407 /* XCRemoteSwiftPackageReference "Orb" */;
+			productName = Orb;
+		};
+		0D319CB82DF9F59F000F4407 /* Orb */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D319CB52DF9F592000F4407 /* XCRemoteSwiftPackageReference "Orb" */;
+			productName = Orb;
+		};
+		0D319CBA2DF9F5A7000F4407 /* Orb */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D319CB52DF9F592000F4407 /* XCRemoteSwiftPackageReference "Orb" */;
+			productName = Orb;
+		};
+		0D7449EF2DF90B8800DB5308 /* AIProxy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D7449EC2DF90B6500DB5308 /* XCRemoteSwiftPackageReference "AIProxySwift" */;
+			productName = AIProxy;
+		};
+		0D744A072DF90D7E00DB5308 /* AIProxy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D7449EC2DF90B6500DB5308 /* XCRemoteSwiftPackageReference "AIProxySwift" */;
+			productName = AIProxy;
+		};
+		0D744A0E2DF92C8700DB5308 /* AIProxy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D7449EC2DF90B6500DB5308 /* XCRemoteSwiftPackageReference "AIProxySwift" */;
+			productName = AIProxy;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0DD1CC172DF8F2C400F7B0E1 /* Project object */;
+}
