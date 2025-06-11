@@ -1,6 +1,6 @@
 ## About
 
-This project demonstrates AIProxy's OpenAI Realtime SDK. There are three targets included:
+This project demonstrates AIProxy's [OpenAI Realtime SDK](https://github.com/lzell/AIProxySwift). There are three targets included:
 - watchOS
 - macOS
 - iOS
